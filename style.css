@@ -70,7 +70,7 @@ a {
 button {
     background-color: #3882f6;
     padding: 10px 20px;
-    border-radius: 25%;
+    border-radius: 10px;
     color: white;
     font-size: 16px;
     font-weight: bold;
@@ -154,7 +154,7 @@ blockquote {
     background-color: #3882f6;
     height: auto;
     width: auto;
-    border-radius: 15%; 
+    border-radius: 10px; 
     display: flex;
     padding: 50px;
     gap: 30px;
