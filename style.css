@@ -1,0 +1,182 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0%;
+    margin: 0%;
+    border: 0px;
+}
+
+header {
+    background-color: #1f2937;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.nav-bar {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: auto;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+.left-box {
+    width: 300px;
+}
+
+
+.left-box h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+    margin: 0px;
+}
+
+.left-box p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0px;
+    line-height: 1.5em;
+}
+
+button {
+    background-color: #3882f6;
+    padding: 10px 20px;
+    border-radius: 25%;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: solid wheat;
+}
+
+.right-box img {
+    width: 500px;
+    height: 200px;
+}
+
+main {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 20px;
+}
+
+.main-title {
+    font-size: 32px;   
+    color: #1f2937;
+    font-weight: bolder;
+    text-align: center;
+    padding: 40px;
+}
+
+.boxes img {
+    width: 130px;
+    height: 130px;
+    border-radius: 15%;
+}
+
+.boxes {
+    text-align: center;
+}
+
+section {
+    background-color: #e5e7eb;
+    height: 500px;
+}
+
+.quote {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+blockquote {
+    width: 70%;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    padding-bottom: 0%;
+}
+
+.source {
+    text-align: right;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: bolder;
+    padding: 0%;
+    
+}
+
+.section-3 {
+    height: 300px;
+
+}
+
+.section-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-box {
+    box-sizing: border-box;
+    background-color: #3882f6;
+    height: auto;
+    width: auto;
+    border-radius: 15%; 
+    display: flex;
+    padding: 50px;
+    gap: 30px;
+}
+
+.call-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: wheat;
+}
+
+.call-text {
+    color: wheat;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #1f2937;
+    height: 100px;
+    color: #f9faf8;
+    font-size: 24px;
+    text-align: center;
+    padding: 40px;
+    box-sizing: border-box;
+}
